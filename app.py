@@ -111,7 +111,7 @@ def get_player_info():
             }), 500
 
         data = bytes.fromhex(encrypt_api(f"08{Encrypt_ID(player_id)}1007"))
-        url = "https://client.us.freefiremobile.com/GetPlayerPersonalShow"
+        url = "https://clientbp.ggblueshark.com/GetPlayerPersonalShow"
         headers = {
             'X-Unity-Version': '2018.4.11f1',
             'ReleaseVersion': 'OB48',
